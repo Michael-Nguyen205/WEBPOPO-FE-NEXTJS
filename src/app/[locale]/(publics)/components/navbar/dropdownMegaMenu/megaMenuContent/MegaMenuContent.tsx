@@ -25,15 +25,15 @@ const FQA = dynamic(
   }
 );
 
-export async function getStaticProps() {
-  const categories = await fetchData("/categories");
-  return {
-    props: {
-      categories,
-    },
-    revalidate: 3600, // Thời gian (tính bằng giây) để cập nhật lại dữ liệu, ở đây là 1 giờ
-  };
-}
+// export async function getStaticProps() {
+//   const categories = await fetchData("/categories");
+//   return {
+//     props: {
+//       categories,
+//     },
+//     revalidate: 3600, // Thời gian (tính bằng giây) để cập nhật lại dữ liệu, ở đây là 1 giờ
+//   };
+// }
 
 const MegaMenuContent: React.FC = () => {
   return (

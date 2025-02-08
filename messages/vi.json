@@ -1,0 +1,63 @@
+{
+    "HomePage": {
+      "title": "Tạo website cho riêng bạn",
+      "StepToBuild": {
+        "stepTitle": "Các bước làm việc chúng tôi.",
+        "step1": {
+          "step": "Bước 1",
+          "title": "Khảo sát & Phân tích nhu cầu",
+          "description": "Thu thập thông tin chi tiết về yêu cầu, phân tích quy trình hiện tại và xác định vấn đề cần giải quyết, từ đó lên kế hoạch rõ ràng."
+        },
+        "step2": {
+          "step": "Bước 2",
+          "title": "Thiết kế hệ thống",
+          "description": "Xây dựng kiến trúc phần mềm, quyết định về công nghệ, nền tảng, công cụ phát triển, thiết kế các module chính và xác định mối quan hệ giữa các thành phần."
+        },
+        "step3": {
+          "step": "Bước 3",
+          "title": "Phát triển & Kiểm thử",
+          "description": "Phát triển các tính năng, module ứng dụng, kiểm thử toàn diện để đảm bảo chất lượng, hiệu suất và khả năng hoạt động ổn định."
+        },
+        "step4": {
+          "step": "Bước 4",
+          "title": "Triển khai & Đào tạo",
+          "description": "Triển khai hệ thống vào môi trường thực tế. Cung cấp đào tạo chi tiết cho người dùng về cách sử dụng ứng dụng. Đồng thời, hỗ trợ khách hàng để giải quyết mọi vấn đề phát sinh trong quá trình sử dụng."
+        },
+        "step5": {
+          "step": "Bước 5",
+          "title": "Bảo trì, Nâng cấp & Thu thập phản hồi",
+          "description": "Cung cấp dịch vụ bảo trì, xử lý sự cố và nâng cấp tính năng. Thu thập phản hồi để cải thiện ứng dụng, đảm bảo hoạt động ổn định và đáp ứng nhu cầu doanh nghiệp."
+        }
+      }
+    },
+  
+    "WebsiteDesign": {
+      "title": "Đây là tiêu đề của Website Design",
+      "Header": {
+        "title": "Đây là phần Header từ website design",
+        "ListService": {
+          "buttonLinkWebByCode": {
+            "text": "Phát triển Website",
+            "href": "/development"
+          },
+          "buttonLinkWebByWordPress": {
+            "text": "Website WordPress",
+            "href": "/wordpress"
+          }
+        }
+      }
+    },
+  
+    "WebsiteDesignDevelopment": {
+      "title": "Thiết kế website bằng mã nguồn",
+      "description": "Webcoco là một công ty thiết kế website giúp bạn tạo ra trang web của riêng mình. Chúng tôi cung cấp cho bạn dịch vụ thiết kế website tốt nhất.",
+      "packages": {
+        "title": "Our packages"
+      }
+    },
+  
+    "LoginPage": {
+      "title": "Đăng nhập"
+    }
+  }
+  

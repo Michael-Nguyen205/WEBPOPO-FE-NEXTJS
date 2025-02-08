@@ -1,0 +1,52 @@
+.label { /* Thêm class cục bộ cho label */
+  display: flex;
+  flex-direction: column;
+  
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+
+  .span { /* Thêm class cục bộ cho các span */
+    background: black;
+    border-radius: 10px;
+    height: 4px;
+    margin: 4px 0;
+    transition: 0.4s cubic-bezier(0.68, -0.6, 0.32, 1.6);
+
+    &:nth-of-type(1) {
+      width: 42%;
+    }
+
+    &:nth-of-type(2) {
+      width: 71%;
+    }
+
+    &:nth-of-type(3) {
+      width: 30%;
+    }
+  }
+}
+
+.checkbox { /* Thêm class cục bộ cho checkbox */
+  display: none;
+
+  &:checked {
+    ~ .span:nth-of-type(1) {
+      transform-origin: bottom;
+      transform: rotateZ(45deg) translate(6px, 4px);
+    }
+
+    ~ .span:nth-of-type(2) {
+      transform-origin: top;
+      transform: rotateZ(-45deg);
+    }
+
+    ~ .span:nth-of-type(3) {
+      transform-origin: bottom;
+      width: 40%;
+      transform: translate(11px, -8px) rotateZ(45deg);
+    }
+  }
+
+
+}

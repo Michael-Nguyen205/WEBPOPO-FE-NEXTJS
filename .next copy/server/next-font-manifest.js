@@ -1,0 +1,1 @@
+self.__NEXT_FONT_MANIFEST="{\"pages\":{},\"app\":{\"/Users/nguyenduykhanh/Documents/PROJECT/ WEBCOCO/FE-NEXTJS/shopapp/src/app/[locale]/layout\":[\"static/media/9c4f36a8729a460e-s.p.ttf\"]},\"appUsingSizeAdjust\":true,\"pagesUsingSizeAdjust\":false}"

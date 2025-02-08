@@ -1,0 +1,17 @@
+
+
+@keyframes infinite-scroll {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+  
+  .infinite-scroll-text-banner {
+    display: flex;
+    animation: infinite-scroll 180s linear infinite;
+    width: max-content; /* Đảm bảo chiều rộng linh hoạt */
+  }
+  

@@ -1,0 +1,42 @@
+{
+    "HomePage": {
+      "title": "making your website"
+    },
+    "WebsiteDesign": {
+     "title": "this is WebsiteDesign tittle",
+     "Header": {
+        "title": "this is Header from website designnn",
+        "ListService": {
+          "buttonLinkWebByCode": {
+            "text": "Website Development",
+                 "href": "/development"
+          },
+          "buttonLinkWebByWordPress": {
+            "text": "Website WordPress"
+            ,
+                 "href": "/wordpress"
+          }
+        }
+      }
+    },
+
+ "WebsiteDesignDevelopment": {
+  "title": "Website design using source code",
+  "description": "Webcoco is a website design company that helps you create your own website. We provide you with the best website design services.",
+  "packages": {
+    "title": "Our packages"
+  }
+}
+,
+
+
+  
+    "LoginPage": {
+      "title": "login"
+    },
+
+    "Metadata": {
+      "title": "website design",
+      "description": "webcoco is a website design company that helps you create your own website. We provide you with the best website design service."
+    }
+  }  

@@ -54,7 +54,7 @@ const Header: React.FC = () => {
             </span>
 
             <div className="title-2  text-xl  md:text-8xl leading-tight mr-5 ">
-              HIỆN THỰC HOÁ Ý TƯỞNG SỐ
+              HIỆN THỰC HOÁ Ý TƯỞNG SỐo
             </div>
 
             {/* Button */}

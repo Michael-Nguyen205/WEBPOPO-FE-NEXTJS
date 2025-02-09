@@ -54,7 +54,7 @@ const OutTechs: React.FC = () => {
     <>
       <section className="bg-secondary text-white  overflow-hidden md:px-14 ">
         <h5 className="relative text-6xl font-bold  mb-4  pt-8 text-center ">Our Techs</h5>
-        <div className="flex  relative w-full  h-44 space-x-9 infinite-scroll-tech-banner ">
+        <div className="flex  relative w-full  h-20 md:h-30 lg:h-44 space-x-9 infinite-scroll-tech-banner ">
           {/* Các mục công nghệ */}
 
           <div

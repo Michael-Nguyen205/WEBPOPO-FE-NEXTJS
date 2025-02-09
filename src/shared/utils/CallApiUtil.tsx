@@ -17,7 +17,7 @@ const getLanguage = () => {
 };
 
 // Hàm chung để thực hiện các yêu cầu HTTP
-const fetchData = async (
+export  const fetchData = async (
   method: 'GET' | 'POST' | 'PUT' | 'DELETE',
   path: string,
   data?: any,

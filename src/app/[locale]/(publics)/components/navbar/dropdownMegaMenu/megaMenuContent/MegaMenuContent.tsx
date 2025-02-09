@@ -1,5 +1,5 @@
 import dynamic from "next/dynamic";
-import { fetchData } from "@/shared/utils/CallApiUtil";
+// import { fetchData } from "@/shared/utils/CallApiUtil";
 
 const Website = dynamic(
   () =>

@@ -20,7 +20,7 @@ const Logout: React.FC = () => {
     setTimeout(() => {
       router.push("/"); // Thay navigate("/") bằng router.push("/")
     }, 200);
-  }, []);
+  }, [router]);
 
   return (
     <div className="">

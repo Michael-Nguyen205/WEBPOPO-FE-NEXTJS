@@ -113,7 +113,7 @@ export const ToggleMenuProvider = ({ children }: ToggleMenuProviderProps) => {
         handleToggleMenu(false);
       }
     },
-    [handleToggleMenu, setIsOpen]
+    [handleToggleMenu]
   );
 
   useEffect(() => {

@@ -11,7 +11,6 @@ const Header: React.FC = () => {
     <header className="  px-3 md:px-10 py-0 lg:px-14  sm:px-4 text-black bg-secondary">
       {/* Navbar */}
       <Navbar />
-
       {/* Phần nền và nội dung chính */}
       <div className="  container-header relative flex   backdrop-blur-md  min-h-screen  items-center  text-white">
         <div

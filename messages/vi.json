@@ -1,6 +1,17 @@
 {
     "HomePage": {
       "title": "Tạo website cho riêng bạn",
+      "Metadata": {
+        "title": "Dịch vụ thiết kế website, phần mềm, UI/UX & chuyển đổi số doanh nghiệp",
+        "description": "Nâng cao doanh nghiệp của bạn với thiết kế website hiện đại, phát triển phần mềm tùy chỉnh và các giải pháp chuyển đổi số. Tăng hiệu suất, cải thiện trải nghiệm người dùng và dẫn đầu thị trường.",
+        "keywords": "thiết kế web, phát triển phần mềm, chuyển đổi số, tự động hóa doanh nghiệp, thiết kế UI/UX, giải pháp đám mây, tư vấn CNTT",
+        "author": "WebCoco - Giải pháp số",
+        "og": {
+          "title": "Dịch vụ thiết kế website & chuyển đổi số",
+          "description": "Chúng tôi cung cấp giải pháp thiết kế website hiện đại, phát triển phần mềm tùy chỉnh và chuyển đổi số cho doanh nghiệp."
+        }
+      },
+      
       "StepToBuild": {
         "stepTitle": "Các bước làm việc chúng tôi.",
         "step1": {

@@ -82,22 +82,31 @@ export async function generateMetadata({
   const host = header.get("host") || "";
   const href = header.get("x-current-path")?.toString() || "";
 
-  // Generate the current pathname
+  // Generate the current pathname lấy đường dẫn url theo ngôn ngữ
   const pathname = getPathname({ locale, href });
 
-  // Fetch translations for metadata
+  // Fetch translations for metadata lấy bản dịch cho metadata
   const t = await getTranslations({ locale, namespace: "Metadata" });
 
   // Canonical URL (default locale)
+    //Canonical URL là URL chuẩn (chính thức) của một trang web, giúp Google hiểu phiên bản nào của trang là quan trọng nhất khi có nhiều URL có nội dung giống nhau hoặc rất giống nhau.
+// vd khi render <link rel="canonical" href="https://example.com/en/website-design">
   const canonicalUrl = `${host}${getPathname({
     locale: routing.defaultLocale,
     href,
   })}`;
 
+
+
   // Generate alternate links for all supported locales
-  const alternates = routing.locales.map((loc) => ({
-    hreflang: loc,
-    href: `${host}${getPathname({ locale: loc, href })}`,
+  // Hỗ trợ Google biết có nhiều phiên bản ngôn ngữ của trang
+//Giúp người dùng tìm thấy phiên bản phù hợp với ngôn ngữ của họ trên Google
+//Cải thiện SEO đa ngôn ngữ
+//vd <link rel="alternate" hreflang="en" href="https://example.com/en/website-design">
+
+  const alternates = routing.locales.map((locale) => ({
+    hreflang: locale,
+    href: `${host}${getPathname({ locale: locale, href })}`,
   }));
 
   return {

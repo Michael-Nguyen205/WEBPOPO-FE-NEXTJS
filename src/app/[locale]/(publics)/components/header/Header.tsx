@@ -53,8 +53,8 @@ const Header: React.FC = () => {
               <h4 className="text-3xl   md:text-5xl text-black font-bold">WEBPOPO STUDIO</h4>
             </span>
 
-            <div className="title-2  text-xl  md:text-8xl leading-tight mr-5 ">
-              HIỆN THỰC HOÁ Ý TƯỞNG SỐo
+            <div className="title-2  text-7xl  md:text-8xl leading-tight mr-5 ">
+              HIỆN THỰC HOÁ Ý TƯỞNG SỐ
             </div>
 
             {/* Button */}
@@ -99,10 +99,10 @@ const Header: React.FC = () => {
 
           
         </div>
-        <div className="absolute -bottom-0  " style={{ left: "-71px" }}>
-          {" "}
-          <ScrollingTextBanner />
-        </div>
+        <div className="absolute -bottom-0 left-[-13px] md:left-[-71px]">
+  <ScrollingTextBanner />
+</div>
+
       </div>
     </header>
   );

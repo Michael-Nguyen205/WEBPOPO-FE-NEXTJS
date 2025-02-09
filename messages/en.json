@@ -1,42 +1,52 @@
 {
-    "HomePage": {
-      "title": "making your website"
-    },
-    "WebsiteDesign": {
-     "title": "this is WebsiteDesign tittle",
-     "Header": {
-        "title": "this is Header from website designnn",
-        "ListService": {
-          "buttonLinkWebByCode": {
-            "text": "Website Development",
-                 "href": "/development"
-          },
-          "buttonLinkWebByWordPress": {
-            "text": "Website WordPress"
-            ,
-                 "href": "/wordpress"
-          }
+  "HomePage": {
+    "title": "making your website",
+    "Metadata": {
+      "title": "Website Design , application ,UI/UX & Digital Transformation Services",
+      "description": "Empower your business with cutting-edge website design, custom software development, and digital transformation solutions. Boost efficiency, enhance user experience, and stay ahead of the competition.",
+      "keywords": "web design, software development, digital transformation, business automation, UI/UX design, cloud solutions, IT consulting",
+      "author": "WebCoco - Digital Solutions",
+      "og": {
+        "title": "Website Design & Digital Transformation Services",
+        "description": "We provide modern website design, custom software solutions, and enterprise digital transformation to elevate your business."
+      }
+    }
+  },
+
+
+  "WebsiteDesign": {
+    "title": "this is WebsiteDesign tittle",
+    "Header": {
+      "title": "this is Header from website designnn",
+      "ListService": {
+        "buttonLinkWebByCode": {
+          "text": "Website Development",
+          "href": "/development"
+        },
+        "buttonLinkWebByWordPress": {
+          "text": "Website WordPress",
+          "href": "/wordpress"
         }
       }
-    },
+    }
+  },
 
- "WebsiteDesignDevelopment": {
-  "title": "Website design using source code",
-  "description": "Webcoco is a website design company that helps you create your own website. We provide you with the best website design services.",
-  "packages": {
-    "title": "Our packages"
+  "WebsiteDesignDevelopment": {
+    "title": "Website design using source code",
+    "description": "Webcoco is a website design company that helps you create your own website. We provide you with the best website design services.",
+    "packages": {
+      "title": "Our packages"
+    }
+  },
+
+
+
+  "LoginPage": {
+    "title": "login"
+  },
+
+  "Metadata": {
+    "title": "website design",
+    "description": "webcoco is a website design company that helps you create your own website. We provide you with the best website design service."
   }
 }
-,
-
-
-  
-    "LoginPage": {
-      "title": "login"
-    },
-
-    "Metadata": {
-      "title": "website design",
-      "description": "webcoco is a website design company that helps you create your own website. We provide you with the best website design service."
-    }
-  }  

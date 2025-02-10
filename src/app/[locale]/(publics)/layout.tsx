@@ -23,7 +23,7 @@ import { usePathname } from "@/i18n/routing";
 
 // Font configuration
 const mylocalfont = localFont({
-  src: "../../../../public/fonts/Oswald/Oswald-VariableFont_wght.ttf",
+  src: "../../../../public/fonts/Exo_2/Exo2-VariableFont_wght.ttf",
   display: "swap",
   weight: "400",
 });

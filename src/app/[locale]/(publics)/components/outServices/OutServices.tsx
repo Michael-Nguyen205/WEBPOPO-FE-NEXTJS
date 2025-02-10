@@ -38,7 +38,7 @@ const OutValues: React.FC = () => {
         {/* Phần tử bên phải */}
         <div className="inner-r grid grid-rows-3 gap-5">
           {/* Card 1 */}
-          <div className="p-12 bg-white rounded-lg flex items-center space-x-4">
+          <div className="  p-6   md:p-12 bg-white rounded-lg flex items-center space-x-4">
 
 
             <div className="flex gap-6" >
@@ -64,7 +64,7 @@ const OutValues: React.FC = () => {
           </div>
 
           {/* Card 2 */}
-          <div className="p-12 bg-primary text-white rounded-lg flex items-center  space-x-4">
+          <div className="p-6   md:p-12 bg-primary text-white rounded-lg flex items-center  space-x-4">
           <div className="flex gap-6" >
             <div
               className="images relative flex-none bg-blue-600 px-6 py-3  rounded-lg shadow-lg mt-1"
@@ -90,7 +90,7 @@ const OutValues: React.FC = () => {
 
 
           {/* Card 3 */}
-          <div className="p-12 bg-white rounded-lg flex items-center space-x-4">
+          <div className="p-6   md:p-12 bg-white rounded-lg flex items-center space-x-4">
 
 
           <div className="flex gap-6" >

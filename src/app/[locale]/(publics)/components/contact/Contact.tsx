@@ -72,7 +72,7 @@ const Contact: React.FC = () => {
         <div className="relative w-full lg:w-2/3  text-white flex flex-col justify-between  h-full">
           <div className="relative z-10 ">
             <h2 className="text-5xl md:text-7xl font-bold mb-6">
-              WE WELCOME PEOPLE OF ALL COLOURS, GENDERS AND BELIEFS.
+            Liên hệ với chúng tôi ngay hôm nay!
             </h2>
           </div>
 

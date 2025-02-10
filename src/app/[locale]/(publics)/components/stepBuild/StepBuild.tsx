@@ -15,7 +15,7 @@ const StepBuild: React.FC = () => {
     <section className="px-3 md:px-14 py-8">
       <div className="title flex flex-col ">
         <span className="text-9xl font-extrabold leading-tight md:w-[800px] py-6 mb-8">
-          {t("HomePage.StepToBuild.stepTitle")} {/* Tên bước */}
+          {t("HomePage.StepToBuild.stepTitle")} 
         </span>
 
         <div className="py-3 text-stone-600">
@@ -28,13 +28,13 @@ const StepBuild: React.FC = () => {
           ].map(({ step, title, description, icon }) => (
             <div key={step} className="border-t-2 border-black px-6 py-9 flex justify-between items-center transition duration-300 ease-in-out hover:bg-primary hover:text-white">
               <div className="inner-l flex">
-                <div className="step text-7xl flex-1">Step {step} -</div>
+                <div className="step text-7xl flex-1">Step {step} </div>
                 <div className="text ml-5 w-4/5">
                   <h2 className="text-7xl font-bold">{title}</h2>
                   <p className="text-2xl">{description}</p>
                 </div>
               </div>
-              <div className="inner-r relative h-20 w-20 inline-block transition duration-300 ease-in-out hover:scale-110">
+              <div className="inner-r relative h-20 w-20 inline-block transition duration-300 ease-in-out hover:scale-110  hidden md:inline-block">
                 <Image src={icon} alt={`Icon ${step}`} fill objectFit="contain" className="object-cover" />
               </div>
             </div>

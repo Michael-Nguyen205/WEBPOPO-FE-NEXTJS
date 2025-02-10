@@ -53,7 +53,7 @@ const Header: React.FC = () => {
               <h4 className="text-3xl   md:text-5xl text-black font-bold">WEBPOPO STUDIO</h4>
             </span>
 
-            <div className="title-2  text-7xl  md:text-8xl leading-tight mr-5 ">
+            <div className="title-2  text-7xl  md:text-8xl font-extrabold leading-tight mr-5 py-4 ">
               HIỆN THỰC HOÁ Ý TƯỞNG SỐ
             </div>
 
@@ -99,7 +99,7 @@ const Header: React.FC = () => {
 
           
         </div>
-        <div className="absolute -bottom-0 left-[-13px] md:left-[-71px]">
+        <div className="absolute -bottom-0 left-[-13px] md:left-[-57px]">
   <ScrollingTextBanner />
 </div>
 

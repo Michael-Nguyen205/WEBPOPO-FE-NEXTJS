@@ -15,7 +15,7 @@ import logo from "../../../../../../public/images/Logo.png";
 import { getCookie } from "@/shared/helper/cokkie/cokkieHelper";
 import useIsMobile from "@/shared/hooks/useIsMobile";
 
-// Dynamic imports for responsiveness
+// Dynamic imports for responsivenessj
 const MenuResponSiveButton = dynamic(
   () =>
     import(
